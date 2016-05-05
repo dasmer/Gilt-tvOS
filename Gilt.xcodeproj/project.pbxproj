@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9C08D81CDAD52D00582BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C08D71CDAD52D00582BCD /* AppDelegate.swift */; };
+		3A9C08DA1CDAD52D00582BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C08D91CDAD52D00582BCD /* ViewController.swift */; };
+		3A9C08DD1CDAD52D00582BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C08DB1CDAD52D00582BCD /* Main.storyboard */; };
+		3A9C08DF1CDAD52D00582BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C08DE1CDAD52D00582BCD /* Assets.xcassets */; };
+		3A9C08E71CDAD8D400582BCD /* SaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C08E61CDAD8D400582BCD /* SaleCell.swift */; };
+		3A9C09051CDAEEAD00582BCD /* GiltKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9C09041CDAEEAD00582BCD /* GiltKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A9C08D41CDAD52D00582BCD /* Gilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9C08D71CDAD52D00582BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A9C08D91CDAD52D00582BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A9C08DC1CDAD52D00582BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A9C08DE1CDAD52D00582BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A9C08E01CDAD52D00582BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9C08E61CDAD8D400582BCD /* SaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleCell.swift; sourceTree = "<group>"; };
+		3A9C09041CDAEEAD00582BCD /* GiltKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GiltKit.framework; path = Carthage/Build/tvOS/GiltKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A9C08D11CDAD52D00582BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9C09051CDAEEAD00582BCD /* GiltKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A9C08CB1CDAD52D00582BCD = {
+			isa = PBXGroup;
+			children = (
+				3A9C09041CDAEEAD00582BCD /* GiltKit.framework */,
+				3A9C08D61CDAD52D00582BCD /* Gilt */,
+				3A9C08D51CDAD52D00582BCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A9C08D51CDAD52D00582BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C08D41CDAD52D00582BCD /* Gilt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A9C08D61CDAD52D00582BCD /* Gilt */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C08D71CDAD52D00582BCD /* AppDelegate.swift */,
+				3A9C08D91CDAD52D00582BCD /* ViewController.swift */,
+				3A9C08DB1CDAD52D00582BCD /* Main.storyboard */,
+				3A9C08E61CDAD8D400582BCD /* SaleCell.swift */,
+				3A9C08DE1CDAD52D00582BCD /* Assets.xcassets */,
+				3A9C08E01CDAD52D00582BCD /* Info.plist */,
+			);
+			path = Gilt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A9C08D31CDAD52D00582BCD /* Gilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9C08E31CDAD52D00582BCD /* Build configuration list for PBXNativeTarget "Gilt" */;
+			buildPhases = (
+				3A9C08D01CDAD52D00582BCD /* Sources */,
+				3A9C08D11CDAD52D00582BCD /* Frameworks */,
+				3A9C08D21CDAD52D00582BCD /* Resources */,
+				3A9C09061CDAEECE00582BCD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gilt;
+			productName = Gilt;
+			productReference = 3A9C08D41CDAD52D00582BCD /* Gilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A9C08CC1CDAD52D00582BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dasmer Singh";
+				TargetAttributes = {
+					3A9C08D31CDAD52D00582BCD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3A9C08CF1CDAD52D00582BCD /* Build configuration list for PBXProject "Gilt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A9C08CB1CDAD52D00582BCD;
+			productRefGroup = 3A9C08D51CDAD52D00582BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A9C08D31CDAD52D00582BCD /* Gilt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A9C08D21CDAD52D00582BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9C08DF1CDAD52D00582BCD /* Assets.xcassets in Resources */,
+				3A9C08DD1CDAD52D00582BCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A9C09061CDAEECE00582BCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/GiltKit.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/AlamofireImage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A9C08D01CDAD52D00582BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9C08DA1CDAD52D00582BCD /* ViewController.swift in Sources */,
+				3A9C08E71CDAD8D400582BCD /* SaleCell.swift in Sources */,
+				3A9C08D81CDAD52D00582BCD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A9C08DB1CDAD52D00582BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9C08DC1CDAD52D00582BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A9C08E11CDAD52D00582BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		3A9C08E21CDAD52D00582BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A9C08E41CDAD52D00582BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Gilt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.Gilt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A9C08E51CDAD52D00582BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Gilt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.Gilt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9C08CF1CDAD52D00582BCD /* Build configuration list for PBXProject "Gilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9C08E11CDAD52D00582BCD /* Debug */,
+				3A9C08E21CDAD52D00582BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9C08E31CDAD52D00582BCD /* Build configuration list for PBXNativeTarget "Gilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9C08E41CDAD52D00582BCD /* Debug */,
+				3A9C08E51CDAD52D00582BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A9C08CC1CDAD52D00582BCD /* Project object */;
+}
