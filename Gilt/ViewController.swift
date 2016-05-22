@@ -19,9 +19,9 @@ class SalesViewController: UITableViewController {
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        client.listSalesForStore(.Men, kind: .Upcoming) { sales in
+        client.listSalesForStore(.Men, kind: .Upcoming) { [weak self] sales in
             dispatch_async(dispatch_get_main_queue()) {
-                self.sales = sales
+                self?.sales = sales
             }
         }
     }
