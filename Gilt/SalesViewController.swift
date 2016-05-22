@@ -1,6 +1,7 @@
 import UIKit
-import GiltKit
 import AlamofireImage
+import GiltKit
+
 
 class SalesViewController: UITableViewController {
 
